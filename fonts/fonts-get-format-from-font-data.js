@@ -1,0 +1,1 @@
+export default function t(t){return t[1].match(/(?<=format\(['"])[^'"]+(?=['"]\))/)[0]}

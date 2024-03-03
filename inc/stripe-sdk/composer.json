@@ -1,0 +1,8 @@
+{
+    "require": {
+        "stripe/stripe-php": "^9.4"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}

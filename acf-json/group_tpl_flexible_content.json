@@ -1,0 +1,44 @@
+{
+	"key": "group_tpl_flexible_content",
+	"title": "TPL: Flexible Content",
+	"fields": [
+		{
+			"key": "field_5976e7cf19a8d",
+			"label": "Content",
+			"name": "content",
+			"type": "flexible_content",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": "tpl_flexible_content_content"
+			},
+			"layouts": [],
+			"button_label": "Add Content",
+			"min": "",
+			"max": ""
+		}
+	],
+	"location": [
+		[
+			{
+				"param": "page_template",
+				"operator": "==",
+				"value": "templates\/tpl-flexible-content.php"
+			}
+		]
+	],
+	"menu_order": 0,
+	"position": "normal",
+	"style": "default",
+	"label_placement": "top",
+	"instruction_placement": "label",
+	"hide_on_screen": [
+		"the_content"
+	],
+	"active": 1,
+	"description": "",
+	"modified": 1588239313
+}

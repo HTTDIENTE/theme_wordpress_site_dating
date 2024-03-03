@@ -1,0 +1,10 @@
+2022-11-19 12:58:12 pid:1 Error: Call to undefined function get_current_user_id() in C:\Users\38066\Local Sites\never-walk-alone\app\public\wp-content\themes\child-theme\inc\websocket.php:14
+Stack trace:
+#0 C:\Users\38066\Local Sites\never-walk-alone\app\public\wp-content\themes\child-theme\inc\workerman\vendor\workerman\workerman\Connection\TcpConnection.php(638): {closure}(Object(Workerman\Connection\TcpConnection), 'Sending in serv...')
+#1 C:\Users\38066\Local Sites\never-walk-alone\app\public\wp-content\themes\child-theme\inc\workerman\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#2 C:\Users\38066\Local Sites\never-walk-alone\app\public\wp-content\themes\child-theme\inc\workerman\vendor\workerman\workerman\Worker.php(2467): Workerman\Events\Select->loop()
+#3 C:\Users\38066\Local Sites\never-walk-alone\app\public\wp-content\themes\child-theme\inc\workerman\vendor\workerman\workerman\Worker.php(1453): Workerman\Worker->run()
+#4 C:\Users\38066\Local Sites\never-walk-alone\app\public\wp-content\themes\child-theme\inc\workerman\vendor\workerman\workerman\Worker.php(1396): Workerman\Worker::forkWorkersForWindows()
+#5 C:\Users\38066\Local Sites\never-walk-alone\app\public\wp-content\themes\child-theme\inc\workerman\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#6 C:\Users\38066\Local Sites\never-walk-alone\app\public\wp-content\themes\child-theme\inc\websocket.php(22): Workerman\Worker::runAll()
+#7 {main}
